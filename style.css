@@ -23,7 +23,7 @@ body {
 
 .blue-box {
   margin: 50px;
-  height: 1740px;
+  height: 1960px;
   background-color: #000019;
   padding: 50px;
   padding-top: 20px;
@@ -41,7 +41,7 @@ body {
   position: relative;
   top: -20px;
   left: -35%;
-  height: 760px;
+  height: 990px;
   
 }
 
@@ -101,10 +101,10 @@ img {
 
 #questions{
    position: relative;
-   left: -10px;
+   left: 200px;
    font-size: 20px;
    text-align: center;
-   top: -610px;
+   top: -1130px;
 }
 
 #contact {
@@ -137,7 +137,7 @@ img {
 
 #nick_img{
   position: absolute;
-  top: 20px;
+  bottom: 800px;
   left: 30px;
   height: 160px;
   width: 160px;
@@ -145,7 +145,7 @@ img {
 
 #christal_img{
   position: absolute;
-  top: 220px;
+  bottom: 560px;
   left: 30px;
   height: 160px;
   width: 160px;
@@ -153,7 +153,7 @@ img {
 
 #nate_img{
   position: absolute;
-  top: 420px;
+  bottom: 320px;
   right: 400px;
   height: 160px;
   width: 160px;
@@ -161,7 +161,7 @@ img {
 
 #kyle_img{
   position: absolute;
-  top: 620px;
+  bottom: 80px;
   right: 400px;
   height: 160px;
   width: 160px;
@@ -173,27 +173,10 @@ img {
   position: relative;
   right: -170px;
   text-align: left;
-  top: -20px;
+  top: 40px;
 }
 
 .nick_name{
-  font-size: 20px;
-  position: relative;
-  right: -100px;
-  text-align: center;
-  top: -0px;
-  
-}
-
- .christal_bio {
-  font-size: 1.15vw;
-  position: relative;
-  right: -170px;
-  text-align: left;
-  top: 20px;
-}
-
-.christal_name{
   font-size: 20px;
   position: relative;
   right: -100px;
@@ -202,12 +185,29 @@ img {
   
 }
 
+ .christal_bio {
+  font-size: 1.15vw;
+  position: relative;
+  right: -170px;
+  text-align: left;
+  bottom: -120px;
+}
+
+.christal_name{
+  font-size: 20px;
+  position: relative;
+  right: -100px;
+  text-align: center;
+  bottom: -130px;
+  
+}
+
  .nate_bio {
   font-size: 1.15vw;
   position: relative;
   right: -170px;
   text-align: left;
-  top: 70px;
+  bottom: -200px;
 }
 
 .nate_name{
@@ -215,7 +215,7 @@ img {
   position: relative;
   right: -100px;
   text-align: center;
-  top: 90px;
+  bottom: -210px;
   
 }
 
@@ -224,7 +224,7 @@ img {
   position: relative;
   right: -170px;
   text-align: left;
-  top: 130px;
+  bottom: -300px;
 }
 
 .kyle_name{
@@ -232,25 +232,71 @@ img {
   position: relative;
   right: -100px;
   text-align: center;
-  top: 150px;
+  bottom: -310px;
   
 }
 
 .section-header-service{
   position: relative;
-  right: -300px;
-  top: -940px;
+  right: -500px;
+  top: -1170px;
   color: #ce8f5a;
   font-size: 25px;
   text-align: center;
   
 }
   
-.service{
+
+.one_service{
   position: relative;
-  top: -950px;
+  top: -1160px;
   font-size: 15px;
-   right: -480px;
+   right: -700px;
+  text-align: left;
+ 
+}
+
+.two_service{
+  position: relative;
+  top: -1160px;
+  font-size: 15px;
+   right: -700px;
+  text-align: left;
+ 
+}
+
+.three_service{
+  position: relative;
+  top: -1160px;
+  font-size: 15px;
+   right: -700px;
+  text-align: left;
+ 
+}
+
+.four_service{
+  position: relative;
+  top: -1160px;
+  font-size: 15px;
+   right: -700px;
+  text-align: left;
+ 
+}
+
+.five_service{
+  position: relative;
+  top: -1160px;
+  font-size: 15px;
+   right: -700px;
+  text-align: left;
+ 
+}
+
+.six_service{
+  position: relative;
+  top: -1160px;
+  font-size: 15px;
+   right: -700px;
   text-align: left;
  
 }
@@ -284,3 +330,11 @@ body {
 
 .blue-box {overflow: hidden;}
 
+.types {
+  font-size: 20px;
+  position: relative;
+  right: -500px;
+  text-align: center;
+  top: -1160px;
+  color: #fffdd0;
+}
