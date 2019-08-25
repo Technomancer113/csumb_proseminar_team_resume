@@ -1,0 +1,286 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(http://media.gettyimages.com/videos/loop-neuron-medical-animation-video-id507753723?s=640x640);
+  background-size: center right no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+  font-family: Times;
+  font-size: 20px;
+  line-height: 1.3125;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+      src=".image.jpg",
+      sizingMethod="scale"
+    );
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+
+.box {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.blue-box {
+  margin: 50px;
+  height: 1740px;
+  background-color: #000019;
+  padding: 50px;
+  padding-top: 20px;
+  padding-bottom: auto;
+  box-shadow: 0 0 20px #111;
+  
+}
+
+.white-box {
+  margin: 20px;
+  background-color: translucent;
+  border-style: solid;
+  padding: 30px;
+  box-shadow: 0 0 20px #111;
+  position: relative;
+  top: -20px;
+  left: -35%;
+  height: 760px;
+  
+}
+
+#logo {
+  padding-left: 50px;
+}
+
+img {
+  max-width: 80%;
+  margin-left: 7%;
+}
+
+.yellow-text{
+  color: yellow;
+}
+
+.blue-text{
+  color: #00FFFF;
+}
+
+#logo-text{
+  color: #008080;
+  position: relative;
+  top: -160px; /* This will move it 20px up */
+  left: 0px;
+  font-style: italic;  
+}
+
+#info {
+  font-size: 8px;
+  padding: 0px, 0px, 0px, 20px;
+  position: relative;
+  bottom: 10 5;
+  padding-right: 35%;
+  color: white;
+  top: -150px; /* This will move it 20px up */
+  left: -50px;
+}
+
+.about-us{
+  position: relative;
+  width: 150%;
+  margin: 10%;
+  font-size: 250%;
+  top: -20px;
+}
+
+#about-us-header{
+  position: relative;
+  color: #ce8f5a;
+}
+
+#about-us-text{
+  font-size: 70%;
+  position: relative;
+}
+
+#questions{
+   position: relative;
+   left: -10px;
+   font-size: 20px;
+   text-align: center;
+   top: -610px;
+}
+
+#contact {
+  position: relative;
+  font-size: 100%;
+  top: -50px;
+  right: 0px;
+  text-align: center;
+}
+
+.div{
+  position: relative;
+  right: -220px;
+}
+
+.section-header-team{
+  position: relative;
+  left: -230px;
+  color: #efd199; 
+  font-size: 25px;
+}
+
+/* //unlinked
+.team-photo{
+  position: relative;
+  left: -210px;
+  bottom: -100px;
+}
+*/
+
+#nick_img{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  height: 160px;
+  width: 160px;
+}
+
+#christal_img{
+  position: absolute;
+  top: 220px;
+  left: 30px;
+  height: 160px;
+  width: 160px;
+}
+
+#nate_img{
+  position: absolute;
+  top: 420px;
+  right: 400px;
+  height: 160px;
+  width: 160px;
+}
+
+#kyle_img{
+  position: absolute;
+  top: 620px;
+  right: 400px;
+  height: 160px;
+  width: 160px;
+}
+
+
+ .nick_bio {
+  font-size: 1.15vw;
+  position: relative;
+  right: -170px;
+  text-align: left;
+  top: -20px;
+}
+
+.nick_name{
+  font-size: 20px;
+  position: relative;
+  right: -100px;
+  text-align: center;
+  top: -0px;
+  
+}
+
+ .christal_bio {
+  font-size: 1.15vw;
+  position: relative;
+  right: -170px;
+  text-align: left;
+  top: 20px;
+}
+
+.christal_name{
+  font-size: 20px;
+  position: relative;
+  right: -100px;
+  text-align: center;
+  top: 40px;
+  
+}
+
+ .nate_bio {
+  font-size: 1.15vw;
+  position: relative;
+  right: -170px;
+  text-align: left;
+  top: 70px;
+}
+
+.nate_name{
+  font-size: 20px;
+  position: relative;
+  right: -100px;
+  text-align: center;
+  top: 90px;
+  
+}
+
+ .kyle_bio {
+  font-size: 1.15vw;
+  position: relative;
+  right: -170px;
+  text-align: left;
+  top: 130px;
+}
+
+.kyle_name{
+  font-size: 20px;
+  position: relative;
+  right: -100px;
+  text-align: center;
+  top: 150px;
+  
+}
+
+.section-header-service{
+  position: relative;
+  right: -300px;
+  top: -940px;
+  color: #ce8f5a;
+  font-size: 25px;
+  text-align: center;
+  
+}
+  
+.service{
+  position: relative;
+  top: -950px;
+  font-size: 15px;
+   right: -480px;
+  text-align: left;
+ 
+}
+
+#coded-by{
+  position: relative;
+  font-size: 15px;
+  top: -60px;
+  left: -150px;
+  width: 150%;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-align: left;
+  padding-left: 20%;
+}
+
+body {
+  overflow-x: hidden;
+}
+.hidden-right {
+  position: absolute;
+  left: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
+}
+
+.blue-box {overflow: hidden;}
+
